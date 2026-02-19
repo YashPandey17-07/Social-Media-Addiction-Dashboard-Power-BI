@@ -15,7 +15,7 @@ The dashboard is designed to help understand behavioral patterns and highlight k
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 - Microsoft Power BI  
 - Power Query  
 - Microsoft Excel  
