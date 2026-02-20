@@ -65,13 +65,10 @@ The goal is to identify behavioral patterns and provide insights that can help e
 ## Dashboard Preview
 
 ### Overview
-[Overview](overview.png)
 
 ### Mental Health Impact
-[Mental Health Impact](mental_health_impact.png)
 
 ### Lifestyle & Conflicts
-[Lifestyle & Conflicts](lifestyle.png)
 
 ---
 
