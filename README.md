@@ -3,7 +3,7 @@
 ## Project Overview
 This project analyzes social media addiction among students and examines its impact on mental health, sleep patterns, and lifestyle using Microsoft Power BI.
 
-The dashboard is designed to help understand behavioral patterns and highlight key risk factors related to excessive social media usage.
+The goal is to identify behavioral patterns and provide insights that can help educators, researchers, and institutions understand risks associated with excessive social media usage.
 
 ---
 
@@ -11,7 +11,7 @@ The dashboard is designed to help understand behavioral patterns and highlight k
 - Identify levels of social media addiction among students  
 - Analyze relationship between addiction and mental health  
 - Study impact of addiction on sleep hours  
-- Explore addiction trends across age groups, gender, academic levels, and countries  
+- Compare addiction trends across age groups, gender, academic levels, and countries  
 
 ---
 
@@ -22,9 +22,26 @@ The dashboard is designed to help understand behavioral patterns and highlight k
 
 ---
 
+## Dataset Description
+
+| Column Name | Description |
+|------------|-------------|
+| Student_ID | Unique student identifier |
+| Age | Age of student |
+| Gender | Male / Female |
+| Academic_Level | High School, Undergraduate, Graduate |
+| Country | Student country |
+| Sleep_Hours_Per_Night | Average sleep hours |
+| Mental_Health_Score | Mental health rating |
+| Relationship_Status | Single, In Relationship, Complicated |
+| Conflicts_Over_Social_Media | Number of conflicts |
+| Addicted_Score | Social media addiction score |
+
+---
+
 ## Dashboard Pages
 
-###  Overview
+### 1. Overview
 - Total Students  
 - Average Addiction Score  
 - Average Mental Health Score  
@@ -33,12 +50,12 @@ The dashboard is designed to help understand behavioral patterns and highlight k
 - Gender Distribution  
 - Country-wise Average Addiction  
 
-### Mental Health Impact
+### 2. Mental Health Impact
 - Mental Health Trend by Addiction Score  
-- Addiction vs Sleep Hours (Scatter)  
+- Addiction vs Sleep Hours  
 - Average Mental Health by Addiction Level  
 
-### Lifestyle & Conflicts
+### 3. Lifestyle & Conflicts
 - Social Media Conflicts by Addiction Level  
 - Average Addiction by Age Group  
 - Relationship Status Distribution  
@@ -48,19 +65,19 @@ The dashboard is designed to help understand behavioral patterns and highlight k
 ## Dashboard Preview
 
 ### Overview
-![Overview](Screenshots/overview.png)
+[Overview](overview.png)
 
 ### Mental Health Impact
-![Mental Health Impact](Screenshots/mental_health_impact.png)
+[Mental Health Impact](mental_health_impact.png)
 
 ### Lifestyle & Conflicts
-![Lifestyle & Conflicts](Screenshots/lifestyle_conflicts.png)
+[Lifestyle & Conflicts](lifestyle.png)
 
 ---
 
 ## Project Files
-- Power BI File: PowerBI_File/Social_Media_Addiction_Dashboard.pbix  
 - Dataset: Dataset/Students_Social_Media_Addiction.xlsx  
+- Power BI File: PowerBI_File/Social_Media_Addiction_Dashboard.pbix  
 - PDF Report: PDF/Social_Media_Addiction_Dashboard.pdf  
 
 ---
