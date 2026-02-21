@@ -1,4 +1,4 @@
-# Social Media Addiction Dashboard (Power BI)
+# Social Media Addiction Analysis Dashboard (Power BI)
 
 ##  Project Overview
 This is an interactive Power BI dashboard analyzing social media addiction among students and its impact on mental health, sleep patterns, and lifestyle.
