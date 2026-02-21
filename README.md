@@ -1,92 +1,95 @@
-# Social Media Addiction Analysis Dashboard (Power BI)
+# Social Media Addiction Dashboard (Power BI)
 
-## Project Overview
-This project analyzes social media addiction among students and examines its impact on mental health, sleep patterns, and lifestyle using Microsoft Power BI.
+##  Project Overview
+This is an interactive Power BI dashboard analyzing social media addiction among students and its impact on mental health, sleep patterns, and lifestyle.
 
-The goal is to identify behavioral patterns and provide insights that can help educators, researchers, and institutions understand risks associated with excessive social media usage.
-
----
-
-## Objectives
-- Identify levels of social media addiction among students  
-- Analyze relationship between addiction and mental health  
-- Study impact of addiction on sleep hours  
-- Compare addiction trends across age groups, gender, academic levels, and countries  
+##  Objectives
+- Identify addiction levels in students  
+- Explore effect of addiction on mental health  
+- Study sleep hours in relation to addiction  
+- Compare demographics (age, gender, academic level, country)
 
 ---
 
-## Tools & Technologies
+##  Tools & Technologies
 - Microsoft Power BI  
 - Power Query  
-- Microsoft Excel  
+- Microsoft Excel
 
 ---
 
-## Dataset Description
+##  Dataset Description
 
-| Column Name | Description |
-|------------|-------------|
-| Student_ID | Unique student identifier |
-| Age | Age of student |
+| Column | Meaning |
+|--------|---------|
+| Student_ID | Unique student |
+| Age | Student age |
 | Gender | Male / Female |
-| Academic_Level | High School, Undergraduate, Graduate |
+| Academic_Level | Class / degree level |
 | Country | Student country |
-| Sleep_Hours_Per_Night | Average sleep hours |
+| Sleep_Hours_Per_Night | Hours slept per night |
 | Mental_Health_Score | Mental health rating |
-| Relationship_Status | Single, In Relationship, Complicated |
+| Relationship_Status | Relationship status |
 | Conflicts_Over_Social_Media | Number of conflicts |
-| Addicted_Score | Social media addiction score |
+| Addicted_Score | Addiction score |
 
 ---
 
-## Dashboard Pages
+##  Dashboard Pages
 
-### 1. Overview
+###  1. Overview
 - Total Students  
-- Average Addiction Score  
-- Average Mental Health Score  
-- Average Sleep Hours  
+- Avg Addiction Score  
+- Avg Mental Health  
+- Avg Sleep Hours  
 - Addiction Level Distribution  
-- Gender Distribution  
-- Country-wise Average Addiction  
+- Gender Breakdown  
+- Country-wise Analysis
 
-### 2. Mental Health Impact
-- Mental Health Trend by Addiction Score  
-- Addiction vs Sleep Hours  
-- Average Mental Health by Addiction Level  
+###  2. Mental Health Impact
+- Addiction vs Mental Health Line  
+- Addiction vs Sleep Hours Scatter  
+- Avg Mental Health by Addiction Level
 
-### 3. Lifestyle & Conflicts
-- Social Media Conflicts by Addiction Level  
-- Average Addiction by Age Group  
-- Relationship Status Distribution  
+###  3. Lifestyle & Conflicts
+- Addiction Level vs Social Media Conflicts  
+- Avg Addiction by Age Group  
+- Relationship Status Distribution
 
 ---
 
 ## Dashboard Preview
 
 ### Overview
-(Overview.png)
+
+![Overview](Overview.png)
 
 ### Mental Health Impact
 
+![Mental_Health](Mental_Health.png)
+
 ### Lifestyle & Conflicts
+
+![Lifestyle](Lifestyle.png)
 
 ---
 
 ## Project Files
-- Dataset: Dataset/Students_Social_Media_Addiction.xlsx  
-- Power BI File: PowerBI_File/Social_Media_Addiction_Dashboard.pbix  
-- PDF Report: PDF/Social_Media_Addiction_Dashboard.pdf  
+
+**Download / View:**  
+- **Power BI File:** `Social_Media_Addiction_Dashboard.pbix`  
+-  **Exported Report (PDF):** `Social_Media_Addiction_Dashboard.pdf`  
+-  **Dataset (Excel):** `Students Social Media Addiction.xlsx`
 
 ---
 
 ## Key Insights
-- Higher addiction levels are associated with lower mental health scores  
-- Students with high addiction tend to sleep fewer hours  
-- Teen and young adult students show higher addiction levels  
-- High addiction leads to more social media related conflicts  
+- Higher addiction → lower mental health  
+- Students with higher addiction sleep less  
+- Teens and undergraduate students show high addiction  
+- More addiction linked to social media conflicts
 
 ---
 
-## Author
+##  Author
 Yash Pandey
