@@ -65,6 +65,7 @@ The goal is to identify behavioral patterns and provide insights that can help e
 ## Dashboard Preview
 
 ### Overview
+(Overview.png)
 
 ### Mental Health Impact
 
